@@ -6,93 +6,254 @@
     <title>Dustin's Landing Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--Jumbotron with name, headshot, and nest columns with icons-->
-    <div class="container">
-        <div class="jumbotron section1">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-3">
-                        <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAV8AAAAJDEyMjc2NjZiLTI1MjgtNDU5Yi1iYmM5LTNlY2U1N2JmYjBmOQ.jpg"
-                            alt="Dustin" class="img-rounded img-responsive">
-                    </div>
-
-                    <div class="col-xs-12 col-md-5">
-                        <H1>Dustin</H1>
-                        <H1>Patterson</H1>
-                    </div>
-
-                    <div class="col-xs-12 col-md-4 text-center">
-                        <br>
-                        <h3>Contact me</h3>
-                        <br>
-                        <div class="row text-center">
-                            <div class="col-xs-4 col-md-4">
-                                <a href="https://github.com/dustinrpatterson" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></div>
-                            <div class="col-xs-4 col-md-4">
-                                <a href="https://www.linkedin.com/in/dustinrpatterson" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
-                            <div class="col-xs-4 col-md-4">
-                                <a href="mailto:dustinrpatterson@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top myHeader">
+        <div class="container-fluid">
+            <div class="row animated lightSpeedIn">
+                <div class="flexThis">
+                    <div class="col-md-2">
+                        <div class="flexThis">
+                            <img src="./images/initials.jpg" alt="" class="logo">
                         </div>
-
+                    </div>
+                    <div class="col-md-3 left white">
+                        <H1>Dustin Patterson</H1>
+                    </div>
+                    <div class="col-md-7 white">
+                        <div class="flexThis">
+                            <h1>About</h1>
+                            <h1>Work Experience</h1>
+                            <h1>Education</h1>
+                            <h1>Projects</h1>
+                            <h1>Contact</h1>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
 
-    <!--section 2-->
-    <div class="container-fluid section2">
-
-        <!--About Section-->
-        <div class="row about">
-            <div class="col-xs-12 col-md-6">
-                <h1>About</h1>
-                <h4>From Boise Idaho</h4>
-                <h4>Learning code at Boise Code Works</h4>
-                <h4>Planning on taking over the world</h4>
+    <!-- About me section -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="flexThis">
+                    <div class="col-md-9 text-center">
+                        <h1>Businessman Turned Development Geek</h1>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/DPHeadshot.jpg" alt="" class="profile">
+                    </div>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>One night, as I sat in a lonely hotel room, I reflecting on where my career was taking me. I was a sales
+                        rep for an investment accounting software company. One of my responsibilities included traveling
+                        to the East Coast to meet with prospective clients and teach them how our software could improve
+                        their lives. Because of this automated software, I could offer my prospects something that would
+                        allow them to spend less time doing manual work and instead give them more time away from the office.
+                    </p>
+                    <p>Being able to give people their lives back was wonderful! However, my job was requiring more and more
+                        time from me. I was traveling nearly every week and would be gone multiple days at a time. I liked
+                        helping people, but I didn’t like how my job was affecting my family. I wondered if I could go back
+                        in time and pick a different career, what would I pursue? In that moment of reflection, I wished
+                        I had become a software developer. However, without access to a time machine, I thought it was too
+                        late for me to make a career change.</p>
+                    <p>Fast forward a few months. There were some unexpected changes at work and I started looking for new employment.
+                        I was taken back to the thoughts I had in my hotel room about becoming a software developer. However,
+                        I “knew” it was too late for me to make a change. I happened to mention this to a friend of mine
+                        and luckily, he told me about coding boot camps. I studied up on them and learned that it wasn’t
+                        too late for me to make a career change after all! After a lot of consideration, I decided attending
+                        a boot camp was the right thing for me.</p>
+                    <p>I’m extremely grateful I made this decision. In just a few short months, I’ve developed a passion for
+                        coding. I look forward to my new career and would love to help you and your organization.</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact me</a></p>
 
-            <div class="col-xs-12 col-md-6 text-right">
-                <img src="http://images.freeimages.com/images/previews/e2a/boise-downtown-1387405.jpg" alt="" class="img-responsive">
-            </div>
-        </div>
+                </div>
 
-        <!--Resume Section-->
-        <div class="row resume">
-            <div class="col-xs-12 col-md-6">
-                <img src="http://images.freeimages.com/images/previews/1df/desk-clutter-1530033.jpg" alt="" class="img-responsive">
-            </div>
-
-            <div class="col-xs-12 col-md-6 text-right">
-
-                <h1>Resume</h1>
-                <h4>Clearwater Analytics</h4>
-                <h4>T-Mobile</h4>
-                <h4>Windermere Richard B. Smith</h4>
-                <h4>Wireless Advocates</h4>
-            </div>
-        </div>
-
-        <!--Projects Section-->
-        <div class="row projects">
-            <div class="col-xs-12 col-md-6">
-                <h1>Projects</h1>
-                <h4>COMING SOON</h4>
-                <h4>Lorem</h4>
-                <h4>Ipsum</h4>
-            </div>
-
-            <div class="col-xs-12 col-md-6 text-right">
-                <img src="http://images.freeimages.com/images/previews/66b/ring-binder-1507356.jpg" alt="" class="img-responsive">
             </div>
         </div>
     </div>
+
+    <!--WORK - show cards with logo that once flipped shows job description and bullet points-->
+    <div class="container-fluid">
+    <div class="row">
+        <div class="flexThis">
+        <div class="col-md-12">
+            <h1>Work Experience</h1>
+        </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="flexThis">
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="face front">
+                            <img width="300px" src="./images/CW.jpg" class="experienceLogo">
+                        </div>
+                        <div class="face back">
+                            <p>Web Ascender is an innovation services company that truly cares about your happiness and the
+                                success of your project. We are leaders in web development, mobile applications and internet
+                                marketing, but our team doesn't just make beautiful digital products. We successfully solve
+                                real problems for people and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="face front">
+                            <img width="300px" src="./images/tmobile.jpg" class="experienceLogo">
+                        </div>
+                        <div class="face back">
+                            <p>Web Ascender is an innovation services company that truly cares about your happiness and the
+                                success of your project. We are leaders in web development, mobile applications and internet
+                                marketing, but our team doesn't just make beautiful digital products. We successfully solve
+                                real problems for people and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="face front">
+                            <img width="300px" src="./images/windermere.png" class="experienceLogo">
+                        </div>
+                        <div class="face back">
+                            <p>Web Ascender is an innovation services company that truly cares about your happiness and the
+                                success of your project. We are leaders in web development, mobile applications and internet
+                                marketing, but our team doesn't just make beautiful digital products. We successfully solve
+                                real problems for people and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="face front">
+                            <img width="300px" src="./images/WA.jpg" class="experienceLogo">
+                        </div>
+                        <div class="face back">
+                            <p>Web Ascender is an innovation services company that truly cares about your happiness and the
+                                success of your project. We are leaders in web development, mobile applications and internet
+                                marketing, but our team doesn't just make beautiful digital products. We successfully solve
+                                real problems for people and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <!--EDUCATION - show cards that have school logo and back shows dates and degree-->
+    <div class="container-fluid">
+    <div class="row">
+        <div class="flexThis">
+        <div class="col-md-12">
+            <h1>Education</h1>
+        </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="flexThis">
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="face front">
+                            <img width="300px" src="./images/BCW.png" class="experienceLogo">
+                        </div>
+                        <div class="face back">
+                            <p>Web Ascender is an innovation services company that truly cares about your happiness and the
+                                success of your project. We are leaders in web development, mobile applications and internet
+                                marketing, but our team doesn't just make beautiful digital products. We successfully solve
+                                real problems for people and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="face front">
+                            <img width="300px" src="./images/BSU.jpg" class="experienceLogo">
+                        </div>
+                        <div class="face back">
+                            <p>Web Ascender is an innovation services company that truly cares about your happiness and the
+                                success of your project. We are leaders in web development, mobile applications and internet
+                                marketing, but our team doesn't just make beautiful digital products. We successfully solve
+                                real problems for people and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="face front">
+                            <img width="300px" src="./images/pioneer.jpg" class="experienceLogo">
+                        </div>
+                        <div class="face back">
+                            <p>Web Ascender is an innovation services company that truly cares about your happiness and the
+                                success of your project. We are leaders in web development, mobile applications and internet
+                                marketing, but our team doesn't just make beautiful digital products. We successfully solve
+                                real problems for people and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <!--PROJECTS - shows screenhot of a few select projects and links to their github io-->
+    <!--CONTACT - show icons and contact detail-->
+    
+
+
+
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+                    Donec sed odio dui. </p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+                    Donec sed odio dui. </p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+                    felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                    massa justo sit amet risus.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <p>&copy; 2016 Company, Inc.</p>
+        </footer>
+    </div>
+    <!-- /container -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 
 </html>

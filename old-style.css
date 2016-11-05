@@ -1,0 +1,37 @@
+body{
+font-family: 'Cherry Cream Soda', cursive;
+}
+
+.section1{
+background-color: #072D73;
+color: white;
+text-shadow: 2px 2px 3px rgba(0,0,0,0.6)
+}
+
+.section2{
+text-shadow: 2px 2px 3px rgba(0,0,0,0.6)
+}
+
+.about{
+  background-color: #1B4CA7;
+  color: white;
+}
+ 
+.resume{ 
+  background-color: #01163D;
+  color:white
+  }
+
+.projects{
+  background-color: #04235B;
+  color: white;
+}
+
+.fa{
+  font-size: 50px;
+  color:white;
+}
+.fa:hover{
+  font-size: 50px;
+  color:#0080ff;
+}
