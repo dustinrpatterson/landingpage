@@ -1,15 +1,11 @@
-.myHeader{
-    height:120px;
-}
 
 .logo{
-    margin-top:5px;
-    height: 100px;
+    height: 45px;
     border-radius: 5px;
 }
 
 .jumbotron{
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .white{
@@ -28,12 +24,60 @@
     margin-bottom: 10px;
 }
 
+.centerText{
+  text-align: center;
+}
+
+.sectionTitle{
+  background-color: white;
+}
+
+.workExperience{
+   background-size: cover;
+   background-image: url(./images/skyscrapers.jpg);
+   background-position: center center;
+}
+
+.education{
+   background-size: cover;
+   background-image: url(./images/library.jpg);
+   background-position: center center;
+}
+
+.experienceLogo{
+    margin-top: 10%;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fa{
+  font-size: 50px;
+  color:#01163D;
+}
+.fa:hover{
+  font-size: 50px;
+  color:#0080ff;
+}
+.underline{
+  text-decoration: underline;
+}
+
+.projects{
+   background-size: cover;
+   background-image: url(./images/projects.jpg);
+   background-position: center center;
+}
+
 /*CARD FLIP CLASSES BELOW*/
 .flip-container{
-  width:375px;
-  height:400px;
+  width:550px;
+  height:225px;
   position: relative;
-  border: blue 2px solid;
+  margin: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 .card{
   text-align:center;
@@ -41,7 +85,6 @@
   width: 100%;
   height: 100%;
 }
-
 .face {
   position: absolute;
   width: 100%;
@@ -68,7 +111,6 @@
 .card:hover .front{
   transform: rotateY(-180deg);
 }
-
 .card:hover .back {
  transform: rotateY(0deg);
 }
@@ -79,12 +121,46 @@
 }
 .face.front {
   transform: rotateY(0deg);
-} 
 
+} 
 .face.back {
   transform: rotateY(180deg); 
+
 }
 
-.experienceLogo{
-    margin-top: 10%;
+/*Education hover cards*/
+.hover-container{
+  width:250px;
+  height:250px;
+  position: relative;
+  border: blue 2px solid;
+  margin: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.edFace {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.edFace.front{
+  background:white;
+}
+.edFace.back {
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  text-align: left;
+  background-color: #333;
+}
+.edFace {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+.edFace.front {
+  transform: rotateY(0deg);
+  border: blue 2px solid;
+} 
+.edFace.back {
+  transform: rotateY(180deg); 
+  border: blue 2px solid;
 }
