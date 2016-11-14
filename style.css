@@ -71,12 +71,17 @@
    background-position: center center;
 }
 
+.bullet{
+font-size: 22px;
+margin: 10px;
+}
+
 /*CARD FLIP CLASSES BELOW*/
 .flip-container{
-  width:550px;
-  height:225px;
+  width:800px;
+  height:350px;
   position: relative;
-  margin: 20px;
+  margin: 50px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 .card{
@@ -102,7 +107,7 @@
   background-color: #333;
 }
 .flip-container{
-  perspective: 800px;
+  perspective: 1100px;
 }
 .card{
   transform-style: preserve-3d;
